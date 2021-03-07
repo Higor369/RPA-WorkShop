@@ -13,7 +13,7 @@ janela = pyautogui.getActiveWindow()
 janela.maximize()
 
 rpa.download('http://www.rpachallenge.com/assets/downloadFiles/challenge.xlsx', 'desafio.xlsx')
-pyautogui(2)
+pyautogui.sleep(2)
 
 dados = pandas.read_excel('desafio.xlsx', sheet_name='Sheet1')
 
