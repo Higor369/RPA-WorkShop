@@ -1,12 +1,5 @@
 import pyautogui
 
-##### obter coordenadas e clicar
-
-pyautogui.sleep(2)
-print(pyautogui.position())
-
-pyautogui.moveTo(0, 0)
-pyautogui.click(0, 0)
 
 #### Interagindo com notepad
 

@@ -31,6 +31,7 @@ for row in data_frame.itertuples():
     rpa.type('//*[@ng-reflect-name="labelEmail"]', row[6])
     rpa.type('//*[@ng-reflect-name="labelPhone"]', str(row[7]))
     rpa.click('/html/body/app-root/div[2]/app-rpa1/div/div[2]/form/input')
+    pyautogui.sleep(1)
 
 os.remove('desafio.xlsx')
 

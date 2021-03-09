@@ -16,7 +16,7 @@ pyautogui.sleep(2)
 
 print(dolar_comercial)
 
-#janela.close()
+janela.close()
 
 
 
